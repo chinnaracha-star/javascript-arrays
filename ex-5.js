@@ -22,3 +22,6 @@ const employees = [
 ];
 
 // Start coding here
+// delete employees[3]   <<< ครั้งแรกตอบแบบนี้   ต้องใช้ pop (ตัวหลัง)   shift (ตัวหน้า)
+ employees.pop(3);
+console.log(employees);
