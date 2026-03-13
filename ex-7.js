@@ -55,5 +55,5 @@ console.log(creditCardTypeOfBlindermann);
 console.log(productQuantityOfJoannet);
 console.log(totalPurchaseOfDary);
 orders.pop(0);
-orders.splice(0, 1);     //<<< คำตอบจาก ChatGPT
+orders.shift();     //<<< คำตอบจาก ChatGPT
 console.log(orders);
